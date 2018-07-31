@@ -4,7 +4,7 @@
 #
 Name     : colcon-recursive-crawl
 Version  : 0.2.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/c3/f8/93df7ed8fb24c59b1550fdc19f13284b0a89ae01703f45ce516c0a3717dd/colcon-recursive-crawl-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/f8/93df7ed8fb24c59b1550fdc19f13284b0a89ae01703f45ce516c0a3717dd/colcon-recursive-crawl-0.2.0.tar.gz
 Summary  : Extension for colcon to recursively crawl for packages.
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: colcon-recursive-crawl-python3
 Requires: colcon-recursive-crawl-python
+Requires: colcon-core
 BuildRequires : buildreq-distutils3
 
 %description
@@ -43,7 +44,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532981099
+export SOURCE_DATE_EPOCH=1533002233
 python3 setup.py build -b py3
 
 %install
