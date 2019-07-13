@@ -4,7 +4,7 @@
 #
 Name     : colcon-recursive-crawl
 Version  : 0.2.0
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/c3/f8/93df7ed8fb24c59b1550fdc19f13284b0a89ae01703f45ce516c0a3717dd/colcon-recursive-crawl-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/f8/93df7ed8fb24c59b1550fdc19f13284b0a89ae01703f45ce516c0a3717dd/colcon-recursive-crawl-0.2.0.tar.gz
 Summary  : Extension for colcon to recursively crawl for packages.
