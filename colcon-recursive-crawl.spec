@@ -4,7 +4,7 @@
 #
 Name     : colcon-recursive-crawl
 Version  : 0.2.1
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/c3/9e/bc1935dc532af90b802ed16cf0a1f5f858275e49d775895fca5161fc9910/colcon-recursive-crawl-0.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c3/9e/bc1935dc532af90b802ed16cf0a1f5f858275e49d775895fca5161fc9910/colcon-recursive-crawl-0.2.1.tar.gz
 Summary  : Extension for colcon to recursively crawl for packages.
@@ -19,6 +19,7 @@ BuildRequires : colcon-core
 %description
 colcon-recursive-crawl
 ======================
+
 An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to recursively crawl for packages.
 
 %package python
@@ -34,6 +35,7 @@ python components for the colcon-recursive-crawl package.
 Summary: python3 components for the colcon-recursive-crawl package.
 Group: Default
 Requires: python3-core
+Provides: pypi(colcon-recursive-crawl)
 
 %description python3
 python3 components for the colcon-recursive-crawl package.
@@ -48,7 +50,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1578599613
+export SOURCE_DATE_EPOCH=1582910927
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
